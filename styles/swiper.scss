@@ -1,0 +1,156 @@
+// external css https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css
+// tat for styling is from line 50 >
+
+.swiper-container {
+    width: 100%;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: 50%;
+    min-height: 20vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+// overwrite swiper defaults
+.swiper-pagination {
+    &-bullet {
+        background-color: transparent;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+    }
+
+    &-bullet-active {
+        background-color: #fff;
+    }
+}
+
+
+.swiper-button {
+    &-container {
+        background-color: rgba(0,0,0,.25);
+    }
+    &-prev {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+    }
+    &-next {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+    }
+}
+
+
+.swiper-slide {
+    height: 555px !important;
+
+    .item-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+   .content-wrapper{
+        text-align: end;
+
+        div{
+            font-size: 24px;
+            font-weight: bold;
+            display: inline;
+        }
+
+        .second{
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .description{
+            font-size: 16px;
+        }
+
+        .shop-btn{
+            border: 2px solid black;
+            text-align: center;
+            border-radius: 3px;
+            padding: 14px 25px;
+            margin-top: 25px;
+            width: 40%;
+            margin-left: auto;
+            transition: .3s ease-in-out;
+            font-size: 14px;
+            font-weight: bold;
+            display: block;
+
+            &:hover{
+                background: #000;
+                color: #fff !important;
+            }
+
+            svg{
+                margin-left: 2px;
+            }
+        }
+
+        h5{
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        h3{
+            font-size: 43px;
+            max-width: 385px;
+            font-weight: bold;
+        }
+
+        span{
+            font-size: 45px;
+            font-weight: bold;
+        }
+   }
+
+   .content-wrapper.second{
+    text-align: left;
+
+    .shop-btn{
+        width: 50%;
+        margin-left: unset;
+    }
+
+
+    .third{
+        font-size: 42px;
+    }
+
+    h3{
+        max-width: 430px;
+    }
+   }
+
+   .content-wrapper.third{
+    text-align: left;
+
+    .shop-btn{
+        width: 25%;
+        margin-left: unset;
+    }
+
+
+    span{
+        font-size: 42px;
+    }
+
+    h3{
+        max-width: 450px;
+    }
+   }
+}
+
+
