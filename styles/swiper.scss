@@ -5,12 +5,16 @@
     width: 100%;
     margin-top: 5px;
     overflow: hidden;
+
+    .swiper-slide{
+        height: 555px;
+        min-height: 20vh;
+    }
 }
 
 .swiper-slide {
     background-size: cover;
     background-position: 50%;
-    min-height: 20vh;
     
     display: flex;
     align-items: center;
@@ -50,7 +54,6 @@
 
 
 .swiper-slide {
-    height: 555px !important;
 
     .item-box{
         display: flex;
