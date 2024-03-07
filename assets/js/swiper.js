@@ -50,3 +50,66 @@ var Swipes = new Swiper('.deal-wrapper', {
     //     }
     // },
 });
+
+var Swipes = new Swiper('#deal-wrapper', {
+    loop: false,
+    slidesPerView: 4,
+    paginationClickable: true,
+    spaceBetween: 20,
+    // breakpoints: {
+    //     1920: {
+    //         slidesPerView: 3,
+    //         spaceBetween: 30
+    //     },
+    //     1028: {
+    //         slidesPerView: 2,
+    //         spaceBetween: 30
+    //     },
+    //     480: {
+    //         slidesPerView: 1,
+    //         spaceBetween: 10
+    //     }
+    // },
+});
+
+var Swipes = new Swiper('.recent-wrapper', {
+    loop: false,
+    slidesPerView: 8,
+    paginationClickable: true,
+    spaceBetween: 20,
+    // breakpoints: {
+    //     1920: {
+    //         slidesPerView: 3,
+    //         spaceBetween: 30
+    //     },
+    //     1028: {
+    //         slidesPerView: 2,
+    //         spaceBetween: 30
+    //     },
+    //     480: {
+    //         slidesPerView: 1,
+    //         spaceBetween: 10
+    //     }
+    // },
+});
+
+var Swipes = new Swiper('#service-box', {
+    loop: false,
+    slidesPerView: 8,
+    paginationClickable: true,
+    spaceBetween: 20,
+    // breakpoints: {
+    //     1920: {
+    //         slidesPerView: 3,
+    //         spaceBetween: 30
+    //     },
+    //     1028: {
+    //         slidesPerView: 2,
+    //         spaceBetween: 30
+    //     },
+    //     480: {
+    //         slidesPerView: 1,
+    //         spaceBetween: 10
+    //     }
+    // },
+});
