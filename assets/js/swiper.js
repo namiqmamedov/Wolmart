@@ -14,20 +14,40 @@ var Swipes = new Swiper('.service-box', {
     slidesPerView: 4,
     paginationClickable: true,
     spaceBetween: 20,
-    // breakpoints: {
-    //     1920: {
-    //         slidesPerView: 3,
-    //         spaceBetween: 30
-    //     },
-    //     1028: {
-    //         slidesPerView: 2,
-    //         spaceBetween: 30
-    //     },
-    //     480: {
-    //         slidesPerView: 1,
-    //         spaceBetween: 10
-    //     }
-    // },
+    breakpoints: {
+        200: {
+            slidesPerView: 1,
+            spaceBetween: 24,
+            resistanceRatio: 0.85
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+        992: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            resistanceRatio: 0.85
+        },
+    },
+});
+
+var Swipes = new Swiper('.category-box', {
+    loop: true,
+    slidesPerView: 4,
+    paginationClickable: true,
+    spaceBetween: 20,
+    breakpoints: {
+        200: {
+            slidesPerView: 3,
+        },
+        768: {
+            slidesPerView: 6,
+        },
+        992: {
+            slidesPerView: 8,
+        },
+    },
 });
 
 var Swipes = new Swiper('.deal-wrapper', {
@@ -35,20 +55,21 @@ var Swipes = new Swiper('.deal-wrapper', {
     slidesPerView: 5,
     paginationClickable: true,
     spaceBetween: 20,
-    // breakpoints: {
-    //     1920: {
-    //         slidesPerView: 3,
-    //         spaceBetween: 30
-    //     },
-    //     1028: {
-    //         slidesPerView: 2,
-    //         spaceBetween: 30
-    //     },
-    //     480: {
-    //         slidesPerView: 1,
-    //         spaceBetween: 10
-    //     }
-    // },
+    breakpoints: {
+        200: {
+            slidesPerView: 2,
+            spaceBetween: 24,
+            resistanceRatio: 0.85
+        },
+        768: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+        992: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+        }
+    },
 });
 
 var Swipes = new Swiper('#deal-wrapper', {
@@ -56,20 +77,20 @@ var Swipes = new Swiper('#deal-wrapper', {
     slidesPerView: 4,
     paginationClickable: true,
     spaceBetween: 20,
-    // breakpoints: {
-    //     1920: {
-    //         slidesPerView: 3,
-    //         spaceBetween: 30
-    //     },
-    //     1028: {
-    //         slidesPerView: 2,
-    //         spaceBetween: 30
-    //     },
-    //     480: {
-    //         slidesPerView: 1,
-    //         spaceBetween: 10
-    //     }
-    // },
+    breakpoints: {
+        200: {
+            slidesPerView: 2,
+            spaceBetween: 24,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 28,
+        },
+        992: {
+            slidesPerView: 4,
+            spaceBetween: 28,
+        }
+    },
 });
 
 var Swipes = new Swiper('.recent-wrapper', {
@@ -77,20 +98,21 @@ var Swipes = new Swiper('.recent-wrapper', {
     slidesPerView: 8,
     paginationClickable: true,
     spaceBetween: 20,
-    // breakpoints: {
-    //     1920: {
-    //         slidesPerView: 3,
-    //         spaceBetween: 30
-    //     },
-    //     1028: {
-    //         slidesPerView: 2,
-    //         spaceBetween: 30
-    //     },
-    //     480: {
-    //         slidesPerView: 1,
-    //         spaceBetween: 10
-    //     }
-    // },
+    breakpoints: {
+        200: {
+            slidesPerView: 2,
+            spaceBetween: 24,
+            resistanceRatio: 0.85
+        },
+        768: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+        },
+        992: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+        }
+    },
 });
 
 var Swipes = new Swiper('#service-box', {
@@ -98,18 +120,19 @@ var Swipes = new Swiper('#service-box', {
     slidesPerView: 8,
     paginationClickable: true,
     spaceBetween: 20,
-    // breakpoints: {
-    //     1920: {
-    //         slidesPerView: 3,
-    //         spaceBetween: 30
-    //     },
-    //     1028: {
-    //         slidesPerView: 2,
-    //         spaceBetween: 30
-    //     },
-    //     480: {
-    //         slidesPerView: 1,
-    //         spaceBetween: 10
-    //     }
-    // },
+    breakpoints: {
+        200: {
+            slidesPerView: 2,
+            spaceBetween: 24,
+            resistanceRatio: 0.85
+        },
+        768: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+        992: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+        }
+    },
 });

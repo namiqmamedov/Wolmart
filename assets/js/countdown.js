@@ -4,7 +4,6 @@ function timer() {
   count = count - 1;
   if (count <= 0) {
     clearInterval(counter);
-    //on end counter, what i do!
     return;
   }
   let varDay  = Math.floor(count / 86400)
@@ -12,25 +11,20 @@ function timer() {
   let varMin = Math.floor(count / 60) % 60
   let varSec = count % 60
       
-  console.log(count);
-  //DAYS
   countD = varDay;
   
-  //HOURS
   if (varHour >= 10) {
     countH = varHour;
   } else {
     countH = '0' + varHour;
   }
 
-  //MINUTES
   if (varMin >= 10) {
     countM = varMin;
   } else {
     countM = '0' + varMin;
   }
 
-  //SECONDS
   if (varSec == 60) {
     countS = '00';
   }else if(varSec >= 10) {
@@ -38,6 +32,6 @@ function timer() {
   } else {
     countS = '0' + varSec;
   }
-  //write on html
+
   document.getElementById("timer").innerHTML = countD + ':' + countH + ':' + countM + ':' + countS;
 }
